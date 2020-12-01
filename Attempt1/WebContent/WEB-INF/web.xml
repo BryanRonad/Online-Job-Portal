@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Attempt1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>LoginApp</servlet-name>
+  	<servlet-class>credentials.LoginApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginApp</servlet-name>
+  	<url-pattern>/loginProcess</url-pattern>
+  </servlet-mapping>
+  
+   
+  <servlet>
+  	<servlet-name>ApproveJobs</servlet-name>
+  	<servlet-class>jobUtil.ApproveJobs</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ApproveJobs</servlet-name>
+  	<url-pattern>/ApproveJobs</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>UpdateApplications</servlet-name>
+  	<servlet-class>jobUtil.UpdateApplications</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateApplications</servlet-name>
+  	<url-pattern>/UpdateApplications</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<servlet-class>credentials.RegisterUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>CompanyLogin</servlet-name>
+  	<servlet-class>credentials.CompanyLogin</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CompanyLogin</servlet-name>
+  	<url-pattern>/CompanyLogin</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>RegisterCompany</servlet-name>
+  	<servlet-class>credentials.RegisterCompany</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterCompany</servlet-name>
+  	<url-pattern>/RegisterCompany</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>AddJob</servlet-name>
+  	<servlet-class>credentials.AddJob</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>AddJob</servlet-name>
+  	<url-pattern>/AddJob</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>Error</servlet-name>
+  	<servlet-class>credentials.Error</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Error</servlet-name>
+  	<url-pattern>/Error</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<servlet-class>credentials.UpdateUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdateUser</servlet-name>
+  	<url-pattern>/UpdateUser</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>UpdatedUser</servlet-name>
+  	<servlet-class>credentials.UpdatedUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UpdatedUser</servlet-name>
+  	<url-pattern>/UpdatedUser</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>Jobs</servlet-name>
+  	<servlet-class>jobUtil.Jobs</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Jobs</servlet-name>
+  	<url-pattern>/Jobs</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>credentials.Logout</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>AppliedJob</servlet-name>
+  	<servlet-class>jobUtil.AppliedJob</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>AppliedJob</servlet-name>
+  	<url-pattern>/AppliedJob</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>SubmitJobApply</servlet-name>
+  	<servlet-class>jobUtil.SubmitJobApply</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SubmitJobApply</servlet-name>
+  	<url-pattern>/SubmitJobApply</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>JobsAdminView</servlet-name>
+  	<servlet-class>jobUtil.JobsAdminView</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>JobsAdminView</servlet-name>
+  	<url-pattern>/JobsAdminView</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  	<servlet-name>EmployeeView</servlet-name>
+  	<servlet-class>employeeUtil.EmployeeView</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>EmployeeView</servlet-name>
+  	<url-pattern>/EmployeeView</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+  	<servlet-name>DeleteUser</servlet-name>
+  	<servlet-class>employeeUtil.DeleteUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteUser</servlet-name>
+  	<url-pattern>/DeleteUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ApproveJobsCompany</servlet-name>
+  	<servlet-class>jobUtil.ApproveJobsCompany</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ApproveJobsCompany</servlet-name>
+  	<url-pattern>/ApproveJobsCompany</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>JobViewCompany</servlet-name>
+  	<servlet-class>jobUtil.JobViewCompany</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>JobViewCompany</servlet-name>
+  	<url-pattern>/JobViewCompany</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>DeleteJob</servlet-name>
+  	<servlet-class>jobUtil.DeleteJob</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteJob</servlet-name>
+  	<url-pattern>/DeleteJob</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>UploadCV</servlet-name>
+  	<servlet-class>credentials.UploadCV</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UploadCV</servlet-name>
+  	<url-pattern>/UploadCV</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>DownloadCV</servlet-name>
+  	<servlet-class>credentials.DownloadCV</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DownloadCV</servlet-name>
+  	<url-pattern>/DownloadCV</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>Feedback</servlet-name>
+  	<servlet-class>credentials.Feedback</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Feedback</servlet-name>
+  	<url-pattern>/Feedback</url-pattern>
+  </servlet-mapping>
+</web-app>
