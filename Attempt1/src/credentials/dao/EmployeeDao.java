@@ -96,7 +96,7 @@ public class EmployeeDao {
 		try {
 			con = SqlConnection.dbConnector();
 			Statement statement = con.createStatement();
-			ResultSet rs = statement.executeQuery("select * from employee");
+			ResultSet rs = statement.executeQuery("select * from employee where email!='admin@jobportal.com'");
 			while (rs.next()) {
 				Employee e = new Employee();
 				e.setUemail(rs.getString((1)));
