@@ -81,7 +81,7 @@ public class EmployeeDao {
 				e.setExp(rs.getString(6));
 				e.setPI(rs.getString(7));
 				e.setSkill(rs.getString(8));
-				System.out.println("Get emp by id"+e);
+				System.out.println("Get emp by id "+e);
 
 			}
 		} catch (Exception ex) {
